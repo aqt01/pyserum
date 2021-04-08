@@ -11,7 +11,6 @@ install-ci-deps = "pipenv install --dev --skip-lock black pydocstyle flake8 pyli
 
 [dev-packages]
 jupyterlab = "*"
-black = "*"
 pytest = "*"
 pylint = "*"
 pytest-tornasync = "*"
@@ -23,13 +22,17 @@ rope = "*"
 pytest-cov = "*"
 twine = "*"
 setuptools = "*"
-sphinx = "*"
+Sphinx = "*"
 sphinxemoji = "*"
 
 [packages]
-solana = "*"
 construct = "*"
-flake8 = "*"
+sphinxemoji = "*"
+pytest = "*"
+ipdb = "*"
+solana = "*"
+python-telegram-bot = "*"
+pyserum = "*"
 
 [requires]
-python_version = "3.7"
+python_version = "3.8"
